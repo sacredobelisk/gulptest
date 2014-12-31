@@ -1,0 +1,25 @@
+{
+	"name": "GulpTest",
+	"description": "Gulp Test",
+	"version": "0.0.1",
+	"private": true,
+	"author": "Sean O'Brien",
+	"dependencies": {
+		"jquery": "^2.1.1",
+		"lodash": "^2.4.1",
+		"q": "^1.1.1"
+	},
+	"devDependencies": {
+		"async": "^0.9.0",
+		"browserify": "^6.2.0",
+		"del": "^0.1.3",
+		"glob": "^4.0.6",
+		"gulp": "^3.8.9",
+		"gulp-util": "^3.0.1",
+		"vinyl-source-stream": "^1.0.0"
+	},
+	"browser": {
+		"other": "/tools/code/Personal/gulptest/libs/other.js",
+		"jquery": "/tools/code/Personal/gulptest/libs/jquery.js"
+	}
+}
